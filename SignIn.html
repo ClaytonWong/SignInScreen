@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="SignIn.css">
+        <title> Sign in screen </title>
+    </head>
+
+    <body>
+        <!-- Welcome in big letters -->        
+        <span class="ScreenName"> Welcome to the sign in screen </span>
+
+        <form method="post">
+            <!-- Ask for username -->
+            <span class="InputLabelText"> Username </span>
+            <input type="text" name="Username"> <br>
+
+            <!-- Ask for password -->
+            <span class="InputLabelText"> Password </span>
+            <input type="password" name="Password"> <br>
+
+            <!-- A link for user to get help with signing in-->
+            <a href="HelpSigningIn.html"> Forgot your username or password?</a> <br>
+            
+            <!-- Allow user to stay signed in-->            
+            <span class="InputLabelText"> Stay signed in </span>
+            <input type="checkbox" name="StaySignedIn" checked> <br>
+            
+            <!-- Sign in button -->
+            <input class="Sub" type="submit" value="Sign in">
+        </form>
+    </body>
+</html>
